@@ -2,6 +2,7 @@
 
 ```bash
 This script allows to switch the active CUDA version between all installed versions.
+You may also use it to install cudnn for the first time.
 Syntax: ./switch_cuda [options] [cuda-version [options]].
 
 Parameters:
@@ -23,4 +24,4 @@ Parameters:
 		-h		Display this help message.
 ```
 
-This works on Ubuntu >=16.04. No other systems have been tested.
+This works on Ubuntu 16.04 and 18.04. No other systems have been tested.
